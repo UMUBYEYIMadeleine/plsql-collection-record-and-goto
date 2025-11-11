@@ -6,11 +6,11 @@ Employee salary management using pl/sql correction,records and goto statement
 ### idea description
 this pl/sql program manages employee salary data  for a small department. use of 
 
-.collection(varray): to store multiple salary values
+1.collection(varray): to store multiple salary values
 
-.records:store employee detail( emp_id,emp_name,salaries)
+2.records:store employee detail( emp_id,emp_name,salaries)
 
-.goto statement: skip employees without have salary data or valiues.
+3.goto statement: skip employees without have salary data or valiues.
 ## program description
  in program below define varray to hold the monthly salaries of each employee, and the define record type to store each employees details uses  nested table of the record represent multiple employees then goto statement used to skip emplyees haven't salary values or data (null).
 
@@ -21,6 +21,8 @@ this pl/sql program manages employee salary data  for a small department. use of
 
  ## expected output
  <img width="677" height="508" alt="employee salary output" src="https://github.com/user-attachments/assets/9fa70a66-3772-40dd-ae46-49620b3411f5" />
+
+ 
 
 
 
